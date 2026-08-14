@@ -104,8 +104,7 @@ are available from the corresponding authors on reasonable request.
 **Intermediate training checkpoints.** Only `snapshot-25000`
 (`ZebrafishNet`) and `snapshot-10000` (`MultiZebrafishNet`) are tracked,
 since those are the weights that produced the published results; the earlier
-checkpoints are excluded in `.gitignore` but remain in the working copy. The
-two tracked snapshots are stored with Git LFS.
+checkpoints are excluded in `.gitignore` but remain in the working copy.
 
 **Pose estimates.** `Inferred-trajectories/` carries the DeepLabCut `.h5`
 files and the assembly pickles. The rendered label overlay videos and the
