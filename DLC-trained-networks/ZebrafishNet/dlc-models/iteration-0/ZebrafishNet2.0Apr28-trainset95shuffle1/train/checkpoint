@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/dlc-models/iteration-0/ZebrafishNet2.0Apr28-trainset95shuffle1/train/snapshot-25000"
+all_model_checkpoint_paths: "/home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/dlc-models/iteration-0/ZebrafishNet2.0Apr28-trainset95shuffle1/train/snapshot-5000"
+all_model_checkpoint_paths: "/home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/dlc-models/iteration-0/ZebrafishNet2.0Apr28-trainset95shuffle1/train/snapshot-10000"
+all_model_checkpoint_paths: "/home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/dlc-models/iteration-0/ZebrafishNet2.0Apr28-trainset95shuffle1/train/snapshot-15000"
+all_model_checkpoint_paths: "/home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/dlc-models/iteration-0/ZebrafishNet2.0Apr28-trainset95shuffle1/train/snapshot-20000"
+all_model_checkpoint_paths: "/home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/dlc-models/iteration-0/ZebrafishNet2.0Apr28-trainset95shuffle1/train/snapshot-25000"

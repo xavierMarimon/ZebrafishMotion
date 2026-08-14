@@ -1,0 +1,68 @@
+# Citation File Format. GitHub reads this file and shows a
+# "Cite this repository" button in the sidebar.
+# https://citation-file-format.github.io
+#
+# NOTE: update `preferred-citation` with the volume, pages, year and DOI once
+# the article is published; and add the repository DOI under `identifiers` if
+# a Zenodo archive is created.
+cff-version: 1.2.0
+message: "If you use this software, data or hardware design, please cite the article below."
+title: "ZebrafishMotion: analysis code, trained networks and open hardware for nonlinear characterisation of zebrafish locomotion"
+abstract: >-
+  Analysis pipeline, DeepLabCut networks (ZebrafishNet and MultiZebrafishNet),
+  pose estimates and open-hardware designs supporting the study of latent
+  motion features in scoliotic zebrafish.
+type: software
+license: MIT
+repository-code: "https://github.com/xavierMarimon/ZebrafishMotion"
+keywords:
+  - zebrafish
+  - scoliosis
+  - nonlinear time series analysis
+  - surrogate data testing
+  - permutation entropy
+  - DeepLabCut
+  - open hardware
+authors:
+  - family-names: Marimon
+    given-names: Xavier
+    email: xavier.marimon@upc.edu
+    affiliation: "Universitat Politecnica de Catalunya (UPC-BarcelonaTECH), Barcelona, Spain"
+  - family-names: Saman-Sakkal
+    given-names: Eduardo
+    email: eduardo.saman@ucdconnect.ie
+    affiliation: "University College Dublin, Dublin, Ireland"
+  - family-names: Cerrolaza
+    given-names: Miguel
+    affiliation: "Valencian International University, Valencia, Spain"
+  - family-names: Bosch-Bayard
+    given-names: Jorge
+    affiliation: "Carl von Ossietzky Universitat Oldenburg, Oldenburg, Germany"
+  - family-names: Portela
+    given-names: Alejandro
+    affiliation: "Universitat Internacional de Catalunya, Sant Cugat, Spain"
+
+preferred-citation:
+  type: article
+  title: "Characterizing latent motion features in scoliotic zebrafish: from nonlinear dynamics to machine-learning classification"
+  journal: "Nonlinear Dynamics"
+  year: 2026
+  notes: "Topical Collection: Biosystem Dynamics. Volume, pages and DOI to be added on publication."
+  authors:
+    - family-names: Marimon
+      given-names: Xavier
+      email: xavier.marimon@upc.edu
+      affiliation: "Universitat Politecnica de Catalunya (UPC-BarcelonaTECH), Barcelona, Spain"
+    - family-names: Saman-Sakkal
+      given-names: Eduardo
+      email: eduardo.saman@ucdconnect.ie
+      affiliation: "University College Dublin, Dublin, Ireland"
+    - family-names: Cerrolaza
+      given-names: Miguel
+      affiliation: "Valencian International University, Valencia, Spain"
+    - family-names: Bosch-Bayard
+      given-names: Jorge
+      affiliation: "Carl von Ossietzky Universitat Oldenburg, Oldenburg, Germany"
+    - family-names: Portela
+      given-names: Alejandro
+      affiliation: "Universitat Internacional de Catalunya, Sant Cugat, Spain"

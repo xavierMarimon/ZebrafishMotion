@@ -1,0 +1,74 @@
+    # Project definitions (do not edit)
+Task: ZebrafishNet2.0
+scorer: PortuguesLab
+date: Apr28
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/videos/df1s3_v1.mp4:
+    crop: 0, 480, 0, 480
+  /home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/videos/df1s3_v2.mp4:
+    crop: 0, 480, 0, 480
+  /home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/videos/df1s3_v3.mp4:
+    crop: 0, 480, 0, 480
+  /home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/videos/df1s3_v4.mp4:
+    crop: 0, 480, 0, 480
+  /home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/videos/df1s3_v5.mp4:
+    crop: 0, 480, 0, 480
+  /home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/videos/df1s3_v6.mp4:
+    crop: 0, 480, 0, 480
+  /home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/videos/df1s3_v7.mp4:
+    crop: 0, 480, 0, 480
+  /home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/videos/df1s3_v8.mp4:
+    crop: 0, 480, 0, 480
+  /home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/videos/df1s3_v9.mp4:
+    crop: 0, 480, 0, 480
+  /home/ge86sof2/ZebrafishNet2.0-PortuguesLab-2022-04-28/videos/df1s3_v10.mp4:
+    crop: 0, 480, 0, 480
+bodyparts:
+- Head
+- Tail_B
+- Tail_E
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - Head
+  - Tail_B
+- - Tail_E
+  - Tail_B
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 2
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

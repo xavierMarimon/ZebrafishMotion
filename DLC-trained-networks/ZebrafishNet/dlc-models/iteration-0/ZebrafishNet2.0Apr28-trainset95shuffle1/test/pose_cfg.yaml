@@ -1,0 +1,16 @@
+all_joints:
+- - 0
+- - 1
+- - 2
+all_joints_names:
+- Head
+- Tail_B
+- Tail_E
+dataset: training-datasets/iteration-0/UnaugmentedDataSet_ZebrafishNet2.0Apr28/ZebrafishNet2.0_PortuguesLab95shuffle1.mat
+global_scale: 0.8
+init_weights: /home/ge86sof2/miniconda3/envs/DeepLabCut/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt
+location_refinement: true
+locref_stdev: 7.2801
+net_type: resnet_50
+num_joints: 3
+scoremap_dir: test

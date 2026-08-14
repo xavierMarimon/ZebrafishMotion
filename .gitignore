@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+._*
+*.aux
+*.log
+*.out
+*.blg
+*.synctex.gz
+
+# ---------------------------------------------------------------------------
+# Kept on disk but deliberately NOT tracked, so that the repository stays
+# within GitHub's size limits. See the data availability statement of the
+# paper for where these are archived.
+# ---------------------------------------------------------------------------
+
+# Intermediate training checkpoints. Only the snapshot actually used for the
+# published results is tracked for each network: 25000 for ZebrafishNet and
+# 10000 for MultiZebrafishNet.
+DLC-trained-networks/ZebrafishNet/**/snapshot-5000.*
+DLC-trained-networks/ZebrafishNet/**/snapshot-10000.*
+DLC-trained-networks/ZebrafishNet/**/snapshot-15000.*
+DLC-trained-networks/ZebrafishNet/**/snapshot-20000.*
+DLC-trained-networks/MultiZebrafishNet/**/snapshot-5000.*
